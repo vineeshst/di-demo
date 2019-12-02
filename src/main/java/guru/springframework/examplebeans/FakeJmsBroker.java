@@ -1,31 +1,25 @@
 package guru.springframework.examplebeans;
 
 public class FakeJmsBroker {
-    private String user;
+    private String username;
     private String password;
-    private String dburl;
-
-    public String getUser() {
-        return user;
+    private String url;
+    public String getUsername() {
+        return username;
     }
-
-    public void setUser(String user) {
-        this.user = user;
+    public void setUsername(String username) {
+        this.username = username;
     }
-
     public String getPassword() {
         return password;
     }
-
     public void setPassword(String password) {
         this.password = password;
     }
-
-    public String getDburl() {
-        return dburl;
+    public String getUrl() {
+        return url;
     }
-
-    public void setDburl(String dburl) {
-        this.dburl = dburl;
+    public void setUrl(String url) {
+        this.url = url;
     }
 }
